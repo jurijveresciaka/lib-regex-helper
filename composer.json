@@ -1,0 +1,30 @@
+{
+    "name": "jurijveresciaka/lib-regex-helper",
+    "description": "Regex helper library provides abstraction level of PHP preg_match function.",
+    "version": "0.0.0",
+    "type": "library",
+    "keywords": ["preg_match", "regex"],
+    "time": "2015-08-23",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jurij Veresciaka",
+            "email": "jurij.veresciaka@gmail.com",
+            "homepage": "http://wwww.jurijveresciaka.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "4.4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "JurijVeresciaka\\Component\\RegexHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JurijVeresciaka\\Component\\RegexHelper\\Tests\\": "tests/"
+        }
+    }
+}
